@@ -13,4 +13,4 @@ jobs:
     - uses: actions/checkout@v3
     - name: Run PowerShell Script
       run: |
-        pwsh -File /home/azureuser/Azure-powershell-automation/CreateVM.ps1
+        pwsh -File ./CreateVM.ps1
